@@ -1,0 +1,102 @@
+.logo{
+    display: flex;
+    justify-content:right;
+    margin-right: 30%;
+    /* border: solid rgb(255, 0, 0) 2px; */
+}
+
+.welcometext{
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    margin-top: 13px;
+    margin-right: 25%;
+    text-decoration: none;
+    font-size: 17px;
+    }
+
+.topnav {
+    display: flex;
+    justify-content: right;
+    background-color: black;
+    overflow: hidden;
+  }
+
+  .topnav a {
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+
+  .slideshow {
+    position: relative;
+    width:1000px;
+    height: 60px;
+    
+  }
+  
+  .slide {
+    position: absolute;
+    width: 60%;
+    height: 200%;
+  }
+  
+  .slide img {
+    width: 60%;
+    height: 200%;
+    object-fit: cover;
+  }
+
+  .item{
+    margin-left: 400px;
+    margin-right: 650px;
+    background-color: rgb(113, 113, 159);
+    
+  }
+
+  /* .plus-btn{
+    border: none;
+  } */
+
+   .quantity-input{
+    width:50px;
+    border: none;
+    cursor: pointer;
+  }
+
+  /* .add-to-cart-btn{
+    border: none;
+  } */
+
+
+    
+  
+  
+  .heart-btn {
+    background-color: red;
+    border: none;
+    cursor: pointer;
+    margin-left: 400px;
+  }
+  
+ 
+  .heart-btn i {
+    font-size: 30px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+text-shadow:
+    -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+    1px 1px 0 #000;
+    
+  }
+
+  .heart-btn.clicked i {
+    color: rgb(255, 0, 0);
+    font-weight: none;
+    text-shadow:none;
+  }
